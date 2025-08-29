@@ -1,13 +1,6 @@
 # Frontend Typescript based React Template
 
-A modern platform built to make your life easier. Fast, reliable, and designed for your needs. 
-
----
-
-## 🚀 Live
-
-- **Frontend (Web App):** [https://e-pay-bd.vercel.app](https://e-pay-bd.vercel.app)  
-- **Backend (API):** [https://epay-backend.vercel.app](https://epay-backend.vercel.app)
+A modern platform built to make your life easier. Fast, reliable, and designed for your needs.
 
 ---
 
