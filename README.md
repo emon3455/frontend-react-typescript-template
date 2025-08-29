@@ -87,7 +87,7 @@ Each repo contains a `.env.example` file — use it as the reference for your lo
 
 1. **Clone & install**
    ```bash
-   git clone [https://github.com/emon3455/frontend-react-typescript-template.git](https://github.com/emon3455/frontend-react-typescript-template.git)
+   git clone https://github.com/emon3455/frontend-react-typescript-template.git
    cd frontend-react-typescript-template
    npm install
     ```
