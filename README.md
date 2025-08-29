@@ -1,8 +1,6 @@
-# EPay — Digital Wallet Platform (BD)
+# Frontend Typescript based React Template
 
-EPay is a role-based digital wallet platform for Bangladesh that supports secure onboarding, wallet management, peer-to-peer transfers, cash-in/cash-out via agents, fees & commissions, and an admin back office.  
-
-The stack is **TypeScript + React (Vite)** on the frontend and **Node.js + Express + Mongoose** on the backend, with cookie-based auth and JWT.
+A modern platform built to make your life easier. Fast, reliable, and designed for your needs. 
 
 ---
 
@@ -15,35 +13,10 @@ The stack is **TypeScript + React (Vite)** on the frontend and **Node.js + Expre
 
 ## 📦 Repositories
 
-- **Frontend:** [https://github.com/emon3455/EPay-Frontend](https://github.com/emon3455/EPay-Frontend)  
-- **Backend:** [https://github.com/emon3455/Epay-Backend](https://github.com/emon3455/Epay-Backend)
+- **Frontend:** [https://github.com/emon3455/frontend-react-typescript-template.git](https://github.com/emon3455/frontend-react-typescript-template.git)  
+- **Backend:** [https://github.com/emon3455/backend-typescript-template.git](https://github.com/emon3455/backend-typescript-template.git)
 
 Each repo contains a `.env.example` file — use it as the reference for your local `.env`.
-
----
-
-## ✨ Core Features
-
-- **Auth & Accounts**
-  - Email/OTP verification (short-lived codes)
-  - Cookie-based sessions with JWT
-  - Roles: **Admin**, **Agent**, **User**
-  - User verification flags: email/phone/address/document/emergency contact → auto-compute `isVerified`
-
-- **Wallet**
-  - Initialize wallet per user
-  - Balance tracking & blocking logic (`isActive === "BLOCKED"` disables ops)
-  - Daily IM updates (planned) and audit trails
-
-- **Transactions**
-  - Send money, cash-in, cash-out, top-up, withdraw
-  - Fees & agent commission logic
-  - Full transaction history & filters
-
-- **Back Office**
-  - Admin dashboards (users, agents, transactions, balances)
-  - Agent approval workflows (planned)
-  - System summaries and revenue snapshots
 
 ---
 
@@ -64,7 +37,6 @@ Each repo contains a `.env.example` file — use it as the reference for your lo
   - [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS framework
   - [shadcn/ui](https://ui.shadcn.com/) — accessible UI components built on Radix + Tailwind
   - [Lucide Icons](https://lucide.dev/) — clean icon library
-  - [Framer Motion](https://www.framer.com/motion/) — animations
 
 - **Forms & Validation**
   - [React Hook Form](https://react-hook-form.com/) — form handling
@@ -92,7 +64,6 @@ Each repo contains a `.env.example` file — use it as the reference for your lo
   - [JWT](https://jwt.io/) — JSON Web Tokens for access & refresh tokens
   - Cookie-based sessions (httpOnly, secure)
   - OTP verification system with expiry
-  - Bcrypt — password hashing
   - CORS & Helmet — security headers
 
 - **Communication**
@@ -115,8 +86,7 @@ Each repo contains a `.env.example` file — use it as the reference for your lo
 
 - **Node.js** v22+ (LTS recommended)  
 - **npm**, **pnpm**, or **yarn** (examples below use `npm`)  
-- **MongoDB** (Atlas or local)  
-- **Redis** (local or hosted, optional but recommended)
+- **MongoDB** (Atlas or local)
 
 ---
 
@@ -124,8 +94,8 @@ Each repo contains a `.env.example` file — use it as the reference for your lo
 
 1. **Clone & install**
    ```bash
-   git clone https://github.com/emon3455/EPay-Frontend
-   cd EPay-Frontend
+   git clone [https://github.com/emon3455/frontend-react-typescript-template.git](https://github.com/emon3455/frontend-react-typescript-template.git)
+   cd frontend-react-typescript-template
    npm install
     ```
 2. **Setup Environment**
@@ -146,8 +116,8 @@ Each repo contains a `.env.example` file — use it as the reference for your lo
 
 1. **Clone & install**
    ```bash
-   git clone https://github.com/emon3455/Epay-Backend
-   cd Epay-Backend
+   git clone https://github.com/emon3455/backend-typescript-template.git
+   cd backend-typescript-template
    npm install
    ```
 ---
@@ -183,4 +153,4 @@ Each repo contains a `.env.example` file — use it as the reference for your lo
 ## 📧 Contact
 
 If you face any difficulties while setting up or running the application, feel free to reach out to me via email.
-Thank you for using **EPay** 🎉
+Thank you for using **Our Template** 🎉
